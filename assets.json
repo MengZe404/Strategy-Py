@@ -1,0 +1,34 @@
+{
+    "message": [
+        {
+            "welcome_message": "Welcome to Strategy-Py, a simple and fun RTS game made in Python!\n\n# Background Story: \n\nPeople, Society, Culture, Education, Economics...\nThe world is having a difficult time due to the rapid war.\n\nYou, as the king of your kingdom, will bring peace to your people.\nUse your power and resources to eliminate the other kingdoms and dominate this unpeaceful land!\n\n###################################################################################################################################\n\n# Kingdoms:\n\nDevs Empire (you)\nNusta Kingdom (opponent no.1)\nLozar Kingdom (opponent no.2)\n",
+            "game_play": "# Game Play:\n\nThis is a Turn-Based RTS game.\nUse commands (to check all available commands, type ? or help) to control your character and take actions for each round.\n\nBe careful when making the decisions because each action can cause the resources to increase/decrease and trigger special events!\n\nAt a special round, you will find the other kingdom and you can choose to take-over (when you have the enough resources)\n\n###################################################################################################################################\n",
+            "secret_message": "\nCongrats! You must be very smart!\nThe special award is\n.\n.\n.\nNOTHING!\nWe programmers are SO FRICKING POOR and you are expecting ME to give you something nice for FREE???!!!\nNO WAY!\n.\n.\n.\nHa so that's a little anger from a poor developer who has NO income at all and doing all the Open Source projects for making the world a better place.\n\nI enjoy what I am doing and that's enough for me to keep doing what I like.\nPleaase please please, do support developers because these simple applications/games take A LONG TIME for us to design and create.\nYour supports really mean A LOT to us!\n.\n.\n.\nAnyway, thank you for spending your time and playing this game and I hope you enjoy it.\n\nBest regards,\n\nMengZe - the developer of this game <3",
+            "victory_message": "\n###################################################################################################################################\n\nYOU DID IT!!!!!!!!!!!!!\n\nYou have dominated this unpeaceful land and saved thousand of millions of people!\n\nAs the developer of this game, I am really impressed to see someone complete the whole game!\n\nI hope you like it and if you do, please share this with your friends because this game took me SO LONG to make.\n\nBest regards,\n\nMengZe"
+        }
+    ],
+    "event": [
+        {
+            "1": "You found a piece of gold! (Saved in inventory)",
+            "2": "You accidentally lost some resources! (- 150 gold)",
+            "3": "Population Increase! (+ 100 soldier)",
+            "4": "You found a small package! (Saved in inventory)",
+            "5": "You found a puzzle at the road side!",
+            "6": "You found Lozar's Kingdom!",
+            "7": "You found Nusta's Kingdom!"
+        }
+    ],
+    "puzzle": [
+        {
+            "1": "Which number completes this sequence:\n\n0, 3, 8, 15, 24, ?",
+            "2": "Which number completes this sequence:\n\n123, 117, 108, 99, ?",
+            "3": "Which number completes this sequence:\n\n147, 159, 174, 186, ?",
+            "4": "Which number completes this sequence:\n\n18, 20, 24, 32, ?",
+            "5": "Which number completes this sequence:\n\n1, 8, 27, ?",
+            "6": "Which number completes this sequence:\n\n24 81 63 26 412 8 25 ?",
+            "7": "Which number completes this sequence:\n\n1, 2, 6, 24, 120, 720, ?",
+            "8": "Which number completes this sequence:\n\n16, 72, 38, 94, 50, ?",
+            "9": "Evaluate the following expression:\n\n00011101 + 01001000 = ?"
+        }
+    ]
+}
