@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 '''
 Strategy-Py, version 1.0
 
