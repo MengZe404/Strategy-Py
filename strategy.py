@@ -371,7 +371,7 @@ class game:
         decision = input("\nWould you like to attack the opponent's kingdom? The cost will be 1000 gold and 1000 soldiers (yes / no): ").lower()
         if decision == "yes":
             my_status['gold'] -= 1000
-            my_status['soldier'] -= 100=
+            my_status['soldier'] -= 1000
             if opponent == "lozar":
                 if my_status["gold"] >= lozar_status["gold"] and my_status["soldier"] >= lozar_status["soldier"]:
                     self.fight('lozar')
