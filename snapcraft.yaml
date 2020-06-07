@@ -1,0 +1,23 @@
+name: strategy-py # you probably want to 'snapcraft register <name>'
+base: core18 # the base snap is the execution environment for this snap
+version: '0.2.1' # just for humans, typically '1.2+git' or '1.3.2'
+summary: A terminal-based strategy game made with Python # 79 char long summary
+description: |
+  Strategy-Py is a terminal-based strategy game made in Python.
+
+  Source: https://github.com/openMengZe/Strategy-Py
+
+grade: devel # must be 'stable' to release into candidate/stable channels
+confinement: strict # use 'strict' once you have the right plugs and slots
+
+parts:
+  strategy-py:
+    # See 'snapcraft plugins'
+    plugin: python
+    python-version: python3
+    source: .
+
+apps:
+  strategy-py:
+    command: bin/strategy.py
+

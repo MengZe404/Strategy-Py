@@ -27,3 +27,9 @@ At a special round, you will find the other kingdom and you can choose to take-o
 
 Secret code: `decode(show me the gift, please!)`
 
+## Build snap:
+
+Run `snapcraft` when inside the project's directory.
+
+You may need to install `snapd` and/or `snapcraft` first: `sudo snap install snapcraft --classic`
+
