@@ -9,13 +9,16 @@
     ],
     "event": [
         {
-            "1": "You found a piece of gold! (Saved in inventory)",
-            "2": "You accidentally lost some resources! (- 150 gold)",
-            "3": "Population Increase! (+ 100 soldier)",
-            "4": "You found a small package! (Saved in inventory)",
+            "1": "You found a bag of gold! (Saved in inventory)",
+            "2": "You accidentally lost some resources! (- some gold)",
+            "3": "You found a small village! (+ soldiers)",
+            "4": "You found a mysterious package! (Saved in inventory)",
             "5": "You found a puzzle at the road side!",
-            "6": "You found Lozar's Kingdom!",
-            "7": "You found Nusta's Kingdom!"
+            "6": "You found an old man at the road side and he wants to play a small game with you!",
+            "7": "A river stopped you from moving. There is an unstatble bridge in front of you but it seems to be dangerous.",
+            "8": "A house is burning down!",
+            "9": "You found Lozar's Kingdom!",
+            "10": "You found Nusta's Kingdom!"
         }
     ],
     "puzzle": [
