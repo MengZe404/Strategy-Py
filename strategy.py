@@ -231,7 +231,7 @@ class game:
                 print('\nYou ignored him.')
         elif event_index == '7':
             answer = input('\nWould you like to find another way? (yes/no): ').lower
-            if answer == 'yes':
+            if answer == 'no':
                 luck = random.randint(1,10)
                 if luck < 7:
                     print("\n<System> You fall into the river. Next time don't take the risk! (lost 200 gold and 100 soldiers)")
