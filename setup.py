@@ -7,6 +7,6 @@ setup(
 	scripts = ["strategy.py"],
 	include_package_data = True,
 	url="http://github.com/openMengZe/Strategy-Py",
-	maintainer="jkelol111",
-	maintainer_email="jkelol111@gmail.com"
+	maintainer="MengZe",
+	maintainer_email="hongmengze110@gmail.com"
 )
